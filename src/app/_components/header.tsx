@@ -4,6 +4,10 @@
 		import { useState } from "react";
 		import { Menu, X } from "lucide-react";
 
+  interface NavLinksProps {
+    onClick?: () => void
+  }
+
 		export function Header() {
 		  const [menuOpen, setMenuOpen] = useState(false);
 
@@ -12,7 +16,7 @@
 		      <div className="text-xl font-bold text-san-felix-700">Ramon</div>
 		      
 		      <nav className="hidden md:flex gap-8">
-		        <NavLinks />
+		        <NavLinks  />
 		      </nav>
 		      
 		      <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
@@ -28,7 +32,7 @@
 		  );
 		}
 
-		function NavLinks({ onClick }) {
+		function NavLinks({ onClick }: NavLinksProps) {
 		  return (
 		    <ul className="flex flex-col md:flex-row gap-4 text-san-felix-700 font-medium">
 		      {[

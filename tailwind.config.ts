@@ -21,10 +21,7 @@ export default {
     '800': '#295526',
     '900': '#224621',
     '950': '#0e260d',
-},
-
-      
-                        
+},        
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
