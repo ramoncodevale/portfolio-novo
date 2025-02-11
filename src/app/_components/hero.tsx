@@ -13,7 +13,7 @@
                 Neste portfólio, você encontrará projetos que refletem minha dedicação à performance, acessibilidade e boas práticas de desenvolvimento.</p>
 
                 <div className="flex gap-4">
-                    <Button name="Github" href="https:www.github.com/ramoncodevale" title="Veja os meus projetos no Github" className="px-6 flex justify-center items-center bg-san-felix-200 text-san-felix-950 transition duration-300 hover:bg-san-felix-300 font-semibold h-[56px] w-full" />
+                    <Button name="Github" href="https://github.com/ramoncodevale" title="Veja os meus projetos no Github" className="px-6 flex justify-center items-center bg-san-felix-200 text-san-felix-950 transition duration-300 hover:bg-san-felix-300 font-semibold h-[56px] w-full" />
                     <Button name="Linkedin" href="https://www.linkedin.com/in/ramonvalentim88/" title="Veja o meu perfil no Linkedin" className="px-6 flex justify-center items-center bg-san-felix-500 text-san-felix-50 transition duration-300 hover:bg-san-felix-600 font-semibold h-[56px] w-full" />
                 </div>
             </div>
