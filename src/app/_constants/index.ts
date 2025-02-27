@@ -57,19 +57,8 @@ export const Projetos = [
     image:
       "https://img.freepik.com/free-photo/man-cuts-his-beard-barbershop_1157-16081.jpg?t=st=1739132074~exp=1739135674~hmac=94b03cf53122f79ebafbb628293ee94b5055ac15fac2e742236c19dcf272f800&w=740",
   },
-
   {
     id: 2,
-    name: "Plann.er",
-    description:
-      "Aplicação web para planejamento de viagens, ajudando usuários a organizar roteiros e destinos. Criado com Next.js e Tailwind CSS.",
-    link1: "https://plann-er-mocha.vercel.app/",
-    link2: "https://github.com/ramoncodevale/plann.er",
-    image:
-      "https://img.freepik.com/free-photo/top-view-travel-items-wooden-background_23-2148909601.jpg?t=st=1739132272~exp=1739135872~hmac=5746b12c9c9bf31d32d2a2f5410763f3ad382677c4a258a05e4e88d437f1f700&w=740",
-  },
-  {
-    id: 3,
     name: "Countries API",
     description:
       "Um projeto que exibe informações detalhadas sobre países, como bandeira, população e moeda, consumindo uma API de dados. Desenvolvido com Next.js e Tailwind CSS.",
@@ -79,7 +68,7 @@ export const Projetos = [
       "https://img.freepik.com/free-vector/flags-different-countries-speech-bubble-shape_23-2147862139.jpg?t=st=1739132368~exp=1739135968~hmac=862f0602c69fc1d5b1b019ec50ffe8e05f4173acdaf3437f19bd041390415e0c&w=740",
   },
   {
-    id: 4,
+    id: 3,
     name: "Projeto Spotify",
     description:
       "Aplicação inspirada no Spotify, desenvolvida com React e JavaScript. Faz requisição ao banco de dados via API, permitindo explorar músicas, playlists e oferecer uma experiência dinâmica e interativa.",
