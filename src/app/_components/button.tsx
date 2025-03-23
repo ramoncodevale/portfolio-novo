@@ -1,14 +1,13 @@
-	interface ButtonProps {
-	    name: string;
-	    href: string;
-	    title: string;
-	    className?: string;
-	}
+interface ButtonProps {
+  name: string;
+  title: string;
+  className?: string;
+}
 
-	export function Button({ name, href, title, className }: ButtonProps) {
-	    return (
-	        <a href={href} className={className} title={title} target="_blank" rel="nofollow">
-	            {name}
-	        </a>
-	    );
-	}
+export function Button({ name, title, className }: ButtonProps) {
+  return (
+    <a className={className} title={title} target="_blank" rel="nofollow">
+      {name}
+    </a>
+  );
+}

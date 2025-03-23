@@ -77,4 +77,14 @@ export const Projetos = [
     image:
       "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+  {
+    id: 3,
+    name: "Interplanetário Deliverys",
+    description:
+      "O Interplanetário Delivery é um formulário interativo e estilizado desenvolvido com Next.js e Tailwind CSS, simulando um serviço de entrega de pedidos entre planetas. O projeto combina performance, interatividade e um design futurista, proporcionando uma experiência envolvente para o usuário.",
+    link1: "https://interplanetario-delivery.vercel.app/",
+    link2: "https://github.com/ramoncodevale/interplanet-rio-delivery",
+    image:
+      "https://images.unsplash.com/photo-1589225529399-8705282f98e2?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
 ];
