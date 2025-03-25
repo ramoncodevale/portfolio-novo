@@ -31,11 +31,9 @@ export default function SobreMimPage() {
               técnica.
             </p>
 
-            <a
-              href="https://drive.google.com/uc?export=download&id=1fHZaZ3iQytaeu8l-UtGIDWLON3sg8VWK"
-              download="curriculo-ramon.pdf"
-            >
+            <a download="curriculo-ramon.pdf">
               <Button
+                href="https://drive.google.com/uc?export=download&id=1fHZaZ3iQytaeu8l-UtGIDWLON3sg8VWK"
                 name="Currículo"
                 title="Baixar meu currículo"
                 className="px-[10px] flex justify-center items-center bg-san-felix-950 text-san-felix-50 transition duration-300 hover:bg-san-felix-600 font-semibold h-[56px] w-[180px]"
