@@ -7,7 +7,13 @@ interface ButtonProps {
 
 export function Button({ name, title, className, href }: ButtonProps) {
   return (
-    <a className={className} title={title} target="_blank" rel="nofollow">
+    <a
+      href={href}
+      className={className}
+      title={title}
+      target="_blank"
+      rel="nofollow"
+    >
       {name}
     </a>
   );
