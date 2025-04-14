@@ -53,14 +53,6 @@ export default function SobreMimPage() {
             />
           </div>
         </div>
-
-        <div className="py-[5rem]">
-          <h3 className="text-san-felix-950 text-center font-semibold text-2xl">
-            Certificados
-          </h3>
-
-          <div></div>
-        </div>
       </section>
     </>
   );

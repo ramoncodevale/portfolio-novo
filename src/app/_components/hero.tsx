@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./button";
+import { Certificates } from "./certificates";
 
 export function Hero() {
   return (
@@ -45,6 +46,9 @@ export function Hero() {
             className="h-auto w-full"
           />
         </div>
+      </div>
+      <div className="py-5">
+        <Certificates />
       </div>
     </section>
   );
