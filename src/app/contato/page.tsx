@@ -33,31 +33,31 @@ export default function ContatoPage() {
       <Breadcrumb pageTitle="Contato" />
       <PageTitle title="contato" />
 
-      <section className="py-[5rem] bg-san-felix-50">
+      <section className="py-[5rem] bg-violet-200">
         <div className="w-[90%] max-w-[1280px] m-auto">
           <div className="flex justify-between flex-col lg:flex-row gap-10">
             <div className="flex flex-col gap-10 w-full lg:w-1/2">
               {/* Contato */}
               <div className="flex gap-2">
-                <Phone className="text-san-felix-950" />
+                <Phone className="text-violet-950" />
                 <div>
                   <h5 className="text-black text-lg font-bold">Contato</h5>
-                  <p className="text-san-felix-950">(11) 98887-2804</p>
+                  <p className="text-violet-950">(11) 98887-2804</p>
                 </div>
               </div>
 
               {/* E-mail */}
               <div className="flex gap-2">
-                <Mail className="text-san-felix-950" />
+                <Mail className="text-violet-950" />
                 <div>
                   <h5 className="text-black text-lg font-bold">E-mail</h5>
-                  <p className="text-san-felix-950">ramonvalentim88@gmail.com</p>
+                  <p className="text-violet-950">ramonvalentim88@gmail.com</p>
                 </div>
               </div>
 
               {/* Localização */}
               <div className="flex gap-2">
-                <MapPin className="text-san-felix-950" />
+                <MapPin className="text-violet-950" />
                 <div>
                   <h5 className="text-black text-lg font-bold">Localização</h5>
                   <p className="text-san-felix-950">Rua Camrujipe, n 32</p>
@@ -66,11 +66,11 @@ export default function ContatoPage() {
 
               {/* GitHub */}
               <div className="flex gap-2">
-                <Github className="text-san-felix-950" />
+                <Github className="text-violet-950" />
                 <div>
                   <h5 className="text-black text-lg font-bold">GitHub</h5>
                   <a
-                    className="text-san-felix-950 hover:text-san-felix-800 hover:underline"
+                    className="text-violet-950 hover:text-violet-800 hover:underline"
                     href="https://www.github.com/ramoncodevale/"
                     target="_blank"
                     rel="nofollow"
@@ -82,11 +82,11 @@ export default function ContatoPage() {
 
               {/* LinkedIn */}
               <div className="flex gap-2">
-                <Linkedin className="text-san-felix-950" />
+                <Linkedin className="text-violet-950" />
                 <div>
                   <h5 className="text-black text-lg font-bold">Linkedin</h5>
                   <a
-                    className="text-san-felix-950 hover:text-san-felix-800 hover:underline"
+                    className="text-violet-950 hover:text-violet-800 hover:underline"
                     href="https://www.linkedin.com/in/ramonvalentim88/"
                     target="_blank"
                     rel="nofollow"
@@ -98,10 +98,10 @@ export default function ContatoPage() {
             </div>
 
             {/* Formulário */}
-            <div className="w-full lg:w-1/2 bg-white shadow-lg p-8 rounded-lg">
+            <div className="w-full lg:w-1/2 bg-violet-950 shadow-lg p-8 rounded-lg">
               <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
                 <div className="flex flex-col gap-2">
-                  <label className="text-san-felix-950 font-bold">Nome</label>
+                  <label className="text-violet-200 font-bold">Nome</label>
                   <input
                     type="text"
                     name="nome"
@@ -113,7 +113,7 @@ export default function ContatoPage() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <label className="text-san-felix-950 font-bold">E-mail</label>
+                  <label className="text-violet-200 font-bold">E-mail</label>
                   <input
                     type="email"
                     name="email"
@@ -125,7 +125,7 @@ export default function ContatoPage() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <label className="text-san-felix-950 font-bold">Mensagem</label>
+                  <label className="text-violet-200 font-bold">Mensagem</label>
                   <textarea
                     name="mensagem"
                     value={formData.mensagem}
@@ -137,7 +137,7 @@ export default function ContatoPage() {
 
                 <button
                   type="submit"
-                  className="bg-san-felix-950 text-white p-3 rounded-md hover:bg-san-felix-800 transition"
+                  className="bg-violet-200 text-violet-950 p-3 rounded-md hover:bg-san-felix-800 transition"
                 >
                   Enviar
                 </button>

@@ -10,7 +10,7 @@
 		      <Breadcrumb pageTitle="Habilidades" />
 		      <PageTitle title="Habilidades" />
 
-		      <section className="py-[5rem]  bg-san-felix-50">
+		      <section className="py-[5rem]  bg-violet-200">
 		      <div className="w-[90%] max-w-[540px] sm:max-w-[720px] md:max-w-[1280px] m-[auto]">
 		        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 		          {Habilidades.map((skill) => (

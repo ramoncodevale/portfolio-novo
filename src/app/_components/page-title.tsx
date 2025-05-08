@@ -4,9 +4,9 @@ interface PageTitleProps {
 
 export function PageTitle({ title }: PageTitleProps) {
   return (
-    <section className="flex-shrink-0 bg-gradient-to-r from-san-felix-500 to-san-felix-700 py-[4.5rem] ">
+    <section className="flex-shrink-0 bg-gradient-to-r from-violet-600 to-violet-800 py-[4.5rem] ">
       <div className=" w-[90%] max-w-[540px] sm:max-w-[720px] md:max-w-[1280px] m-[auto]">
-        <h1 className="text-3xl md:text-5xl leading-[54px] font-bold text-[#f2f1fc]">
+        <h1 className="text-3xl md:text-5xl leading-[54px] font-bold text-violet-200">
           {title}
         </h1>
       </div>

@@ -18,7 +18,7 @@ export default function ProjetosPage() {
             {uniqueProjects.map((project) => (
               <div
                 key={project.id}
-                className="w-full border bg-white border-san-felix-950-[0.2px]"
+                className="w-full border bg-white border-violet-900-[0.2px]"
               >
                 <Image
                   src={project.image}

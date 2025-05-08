@@ -13,7 +13,7 @@ export function Header() {
 
   return (
     <header className="flex justify-between items-center w-[90%] max-w-[1280px] h-[80px] mx-auto py-4">
-      <div className="text-xl font-bold text-san-felix-700">Ramon</div>
+      <div className="text-xl font-bold text-violet-700">Ramon</div>
 
       <nav className="hidden md:flex gap-8">
         <NavLinks />
@@ -34,7 +34,7 @@ export function Header() {
 
 function NavLinks({ onClick }: NavLinksProps) {
   return (
-    <ul className="flex flex-col md:flex-row gap-4 text-san-felix-700 font-medium">
+    <ul className="flex flex-col md:flex-row gap-4 text-violet-700 font-medium">
       {[
         { href: "/", label: "Início" },
         { href: "/sobre-mim", label: "Sobre Mim" },

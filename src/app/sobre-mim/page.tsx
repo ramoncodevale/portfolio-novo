@@ -31,14 +31,17 @@ export default function SobreMimPage() {
               técnica.
             </p>
 
-            <a download="curriculo-ramon.pdf">
-              <Button
-                href="https://drive.google.com/uc?export=download&id=1fHZaZ3iQytaeu8l-UtGIDWLON3sg8VWK"
-                name="Currículo"
-                title="Baixar meu currículo"
-                className="px-[10px] flex justify-center items-center bg-san-felix-950 text-san-felix-50 transition duration-300 hover:bg-san-felix-600 font-semibold h-[56px] w-[180px]"
-              />
-            </a>
+            <a
+           href="https://drive.google.com/uc?export=download&id=1fHZaZ3iQytaeu8l-UtGIDWLO..."
+           download="curriculo-ramon.pdf"
+           className="px-[10px] flex justify-center items-center bg-violet-950 text-violet-50 rounded-md py-2 hover:bg-san-felix-800 transition duration-300"
+           title="Baixar meu currículo"
+           target="_blank"
+          rel="nofollow"
+          >
+         Baixar Currículo
+          </a>
+
           </div>
 
           <div className="w-full lg:w-[45%] p-4 border-[5px] border-san-felix-950">

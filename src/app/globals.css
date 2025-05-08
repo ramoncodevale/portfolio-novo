@@ -9,8 +9,8 @@ html {
 
 body {
   font-family: "Inter", serif;
-    --sb-track-color: #232E33;
-  --sb-thumb-color: #4ba344;
+  --sb-track-color: #fff;
+  /* --sb-thumb-color: #fff; */
   --sb-size: 14px;
 }
 
