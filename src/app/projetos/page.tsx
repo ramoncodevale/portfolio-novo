@@ -32,20 +32,20 @@ export default function ProjetosPage() {
                   <p className="text-xl font-bold leading-[33.6px]">
                     {project.name}
                   </p>
-                  <p className="text-[#5b5b5b] leading-[24px] line-clamp-3">
+                  <p className="text-violet-900 leading-[24px] line-clamp-3">
                     {project.description}
                   </p>
                   <div className="flex gap-3 pt-6">
                     <Button
                       href={project.link1}
                       title={`Veja o projeto online - ${project.name}`}
-                      className="w-full text-center py-1.5 bg-san-felix-950 text-white font-semibold hover:bg-san-felix-600"
+                      className="w-full text-center py-1.5 bg-violet-950 text-white font-semibold hover:bg-san-felix-600"
                       name="Projeto"
                     />
                     <Button
                       href={project.link2}
                       title={`Veja o repositório no Github - ${project.name}`}
-                      className="w-full text-center py-1.5 bg-san-felix-950 text-white font-semibold hover:bg-san-felix-600"
+                      className="w-full text-center py-1.5 bg-violet-950 text-white font-semibold hover:bg-san-felix-600"
                       name="Repositório"
                     />
                   </div>

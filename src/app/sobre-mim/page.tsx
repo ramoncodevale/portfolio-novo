@@ -1,7 +1,6 @@
 import { Breadcrumb } from "../_components/breadcrumb";
 import Image from "next/image";
 import { PageTitle } from "../_components/page-title";
-import { Button } from "../_components/button";
 
 export default function SobreMimPage() {
   return (
@@ -16,14 +15,14 @@ export default function SobreMimPage() {
               Quem eu sou
             </h3>
 
-            <p className="text-[#797979]">
+            <p className="text-violet-900">
               Olá! Me chamo Ramon Valentim, sou desenvolvedor front-end com
               conhecimento em React, Next.js, TypeScript e Tailwind CSS. Tenho
               experiência na construção de interfaces modernas e performáticas,
               utilizando boas práticas de desenvolvimento e design responsivo.
             </p>
 
-            <p className="text-[#797979]">
+            <p className="text-violet-900">
               Sempre busco aprimorar minhas habilidades e acompanhar as
               tendências do mercado, criando projetos que unem tecnologia e
               experiência do usuário. Além disso, estou cursando Análise e
