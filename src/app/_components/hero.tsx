@@ -8,16 +8,13 @@ export function Hero() {
       <div className="w-[90%] max-w-[540px] sm:max-w-[720px] md:max-w-[1280px] m-[auto] flex gap-10 lg:gap-0 flex-col-reverse lg:flex-row justify-between items-center">
         <div className="flex flex-col  w-full lg:w-[45%] gap-10">
           <h2 className="text-2xl lg:text-5xl leading-[32px] lg:leading-[57.6px] font-bold text-violet-200">
-            Transformando Ideias em Experiências Digitais
+            Desenvolvedor Front-end apaixonado por interfaces modernas
           </h2>
 
           <p className="text-violet-100 leading-[25.2px]">
-            Olá! Sou Ramon, desenvolvedor front-end apaixonado por criar
-            interfaces intuitivas e responsivas. Com experiência em React,
-            Next.js, TypeScript e Tailwind CSS, transformo conceitos em soluções
-            visuais elegantes e funcionais. Neste portfólio, você encontrará
-            projetos que refletem minha dedicação à performance, acessibilidade
-            e boas práticas de desenvolvimento.
+          Sou Ramon Valentim, desenvolvedor front-end com foco em criar interfaces modernas, responsivas e acessíveis. Tenho conhecimento sólido em tecnologias como HTML, CSS, JavaScript, TypeScript, React, Next.js e Tailwind CSS, e estou sempre buscando evoluir minhas habilidades com projetos práticos e estudos constantes.
+          Participei de eventos como o NLW da Rocketseat e desenvolvi aplicações completas, desde landing pages até dashboards e plataformas de agendamento, utilizando ferramentas como ShadCN UI, Styled Components, Prisma e integração com APIs REST.
+          Atualmente, curso Análise e Desenvolvimento de Sistemas e estou em busca de oportunidades onde eu possa contribuir com soluções criativas, aprender com a equipe e crescer como profissional. Sou comprometido, organizado e gosto de trabalhar em ambientes colaborativos, sempre focando na qualidade do código e da experiência do usuário.
           </p>
 
           <div className="flex gap-4">
